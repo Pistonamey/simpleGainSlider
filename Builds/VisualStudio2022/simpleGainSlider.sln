@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleGainSlider - Standalone Plugin", "simpleGainSlider_StandalonePlugin.vcxproj", "{8455E314-881C-CDD8-DFA2-AFFC45478FFC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{067F8A1C-EA58-6893-F884-130F7749234C} = {067F8A1C-EA58-6893-F884-130F7749234C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleGainSlider - VST3", "simpleGainSlider_VST3.vcxproj", "{60D65FAE-E4D3-B566-BB3F-B05B75F7CA49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{067F8A1C-EA58-6893-F884-130F7749234C} = {067F8A1C-EA58-6893-F884-130F7749234C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleGainSlider - Shared Code", "simpleGainSlider_SharedCode.vcxproj", "{067F8A1C-EA58-6893-F884-130F7749234C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D65FAE-E4D3-B566-BB3F-B05B75F7CA49}.Debug|x64.ActiveCfg = Debug|x64
+		{60D65FAE-E4D3-B566-BB3F-B05B75F7CA49}.Debug|x64.Build.0 = Debug|x64
+		{60D65FAE-E4D3-B566-BB3F-B05B75F7CA49}.Release|x64.ActiveCfg = Release|x64
+		{60D65FAE-E4D3-B566-BB3F-B05B75F7CA49}.Release|x64.Build.0 = Release|x64
+		{8455E314-881C-CDD8-DFA2-AFFC45478FFC}.Debug|x64.ActiveCfg = Debug|x64
+		{8455E314-881C-CDD8-DFA2-AFFC45478FFC}.Debug|x64.Build.0 = Debug|x64
+		{8455E314-881C-CDD8-DFA2-AFFC45478FFC}.Release|x64.ActiveCfg = Release|x64
+		{8455E314-881C-CDD8-DFA2-AFFC45478FFC}.Release|x64.Build.0 = Release|x64
+		{067F8A1C-EA58-6893-F884-130F7749234C}.Debug|x64.ActiveCfg = Debug|x64
+		{067F8A1C-EA58-6893-F884-130F7749234C}.Debug|x64.Build.0 = Debug|x64
+		{067F8A1C-EA58-6893-F884-130F7749234C}.Release|x64.ActiveCfg = Release|x64
+		{067F8A1C-EA58-6893-F884-130F7749234C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
